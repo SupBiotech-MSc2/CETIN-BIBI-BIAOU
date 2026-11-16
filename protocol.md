@@ -23,10 +23,4 @@ screening.
 ## Team Notes
 <!-- add your own line below, one per teammate -->
 Eda: préciser la concentration de Cas9 dans la liste des réactifs.
-git status | tee -a worklog-eda.txt
-git add protocol.md
-git commit -m "feat: add team note from eda" | tee -a worklog-eda.txt
-git push origin main | tee -a worklog-eda.txt
-=======
->>>>>>> parent of 4a63255 (feat: add team note from eda)
 Eda: j'allongerais la récupération de l'étape 4 à 72h avant le séquençage.
