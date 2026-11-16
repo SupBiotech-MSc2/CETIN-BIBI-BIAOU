@@ -21,6 +21,9 @@ screening.
 5. Validate editing efficiency by amplicon sequencing.
 
 ## Team Notes
+
 <!-- add your own line below, one per teammate -->
-Eda: préciser la concentration de Cas9 dans la liste des réactifs.
+Aurelie : this is my line 
+Eda: préciser la concentration de Cas9 dans la 
+liste des réactifs.
 Eda: j'allongerais la récupération de l'étape 4 à 72h avant le séquençage.
