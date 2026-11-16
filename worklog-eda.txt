@@ -1,0 +1,197 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   protocol.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-eda.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[main 4a63255] feat: add team note from eda
+ 1 file changed, 5 insertions(+)
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   protocol.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-eda.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-eda.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+[main 5bd66a4] test: throwaway commit
+ 1 file changed, 1 insertion(+)
+5bd66a4 test: throwaway commit
+ab904e3 Merge branch 'main' of https://github.com/SupBiotech-MSc2/CETIN-BIBI-BIAOU
+ffa9fdd docs: add note on reagent list
+4a63255 feat: add team note from eda
+4e52aaa Update protocol.md
+9a37a1f Initial commit
+Unstaged changes after reset:
+M	protocol.md
+ab904e3 Merge branch 'main' of https://github.com/SupBiotech-MSc2/CETIN-BIBI-BIAOU
+ffa9fdd docs: add note on reagent list
+4a63255 feat: add team note from eda
+4e52aaa Update protocol.md
+9a37a1f Initial commit
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-eda.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+[main 00343fa] feat: re-add team note from eda
+ 1 file changed, 1 insertion(+)
+commit 00343fa717b1d1fc82a0193acc918d04fa0d3d6c
+Author: Edactn <eda.cetin@supbiotech.fr>
+Date:   Mon Nov 16 23:42:26 2026 +0100
+
+    feat: re-add team note from eda
+
+commit 9e6c139ae3f2e9b4bbbb8a0642d00beda9f2bf02
+Author: Edactn <eda.cetin@supbiotech.fr>
+Date:   Mon Nov 16 23:41:26 2026 +0100
+
+    Revert "feat: add team note from eda"
+    
+    This reverts commit 4a6325556788e767b361d8107b566f3d0bacb905.
+
+commit ab904e3b0468a418ded0bb403b678376a4862116
+Merge: ffa9fdd 4a63255
+Author: edactn <eda.cetin@supbiotech.fr>
+Date:   Mon Nov 16 23:38:35 2026 +0100
+
+    Merge branch 'main' of https://github.com/SupBiotech-MSc2/CETIN-BIBI-BIAOU
+
+commit ffa9fdd99d4500a82a55d76d5547d84c226ebc75
+Author: edactn <eda.cetin@supbiotech.fr>
+Date:   Mon Nov 16 23:35:46 2026 +0100
+
+    docs: add note on reagent list
+
+commit 4a6325556788e767b361d8107b566f3d0bacb905
+Author: Edactn <eda.cetin@supbiotech.fr>
+Date:   Mon Nov 16 23:28:40 2026 +0100
+
+    feat: add team note from eda
+
+commit 4e52aaaec3881772f558d1c96455678de8595f11
+Author: aureliebiaouab-maker <aurelie.biaou.ab@gmail.com>
+Date:   Thu Sep 24 12:14:21 2026 +0200
+
+    Update protocol.md
+
+commit 9a37a1f5d3f13d0f6a43b16ad9f66e7adfe3f025
+Author: bibidonia-ops <bibi.donyaa@gmail.com>
+Date:   Thu Sep 24 11:48:12 2026 +0200
+
+    Initial commit
+00343fa feat: re-add team note from eda
+9e6c139 Revert "feat: add team note from eda"
+ab904e3 Merge branch 'main' of https://github.com/SupBiotech-MSc2/CETIN-BIBI-BIAOU
+ffa9fdd docs: add note on reagent list
+4a63255 feat: add team note from eda
+4e52aaa Update protocol.md
+9a37a1f Initial commit
+commit 9e6c139ae3f2e9b4bbbb8a0642d00beda9f2bf02
+Author: Edactn <eda.cetin@supbiotech.fr>
+Date:   Mon Nov 16 23:41:26 2026 +0100
+
+    Revert "feat: add team note from eda"
+    
+    This reverts commit 4a6325556788e767b361d8107b566f3d0bacb905.
+
+diff --git a/protocol.md b/protocol.md
+index cbf8543..2abfba6 100644
+--- a/protocol.md
++++ b/protocol.md
+@@ -22,9 +22,10 @@ screening.
+ 
+ ## Team Notes
+ <!-- add your own line below, one per teammate -->
+-Aurélie : This is my line
+ Eda: préciser la concentration de Cas9 dans la liste des réactifs.
+ git status | tee -a worklog-eda.txt
+ git add protocol.md
+ git commit -m "feat: add team note from eda" | tee -a worklog-eda.txt
+ git push origin main | tee -a worklog-eda.txt
++=======
++>>>>>>> parent of 4a63255 (feat: add team note from eda)
+[main 738229f] fix: clean leftover conflict markers and restore team note
+ 1 file changed, 6 deletions(-)
+[main d87fc6b] fix: restore teammate note removed by revert
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+* feature/eda-idea
+  main
+[feature/eda-idea e979ee9] feat: add DNA ladder to reagent list
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-eda.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+[feature/eda-idea 5bbd5f3] docs: clarify recovery time in step 4
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+d87fc6b fix: restore teammate note removed by revert
+738229f fix: clean leftover conflict markers and restore team note
+00343fa feat: re-add team note from eda
+9e6c139 Revert "feat: add team note from eda"
+ab904e3 Merge branch 'main' of https://github.com/SupBiotech-MSc2/CETIN-BIBI-BIAOU
+ffa9fdd docs: add note on reagent list
+4a63255 feat: add team note from eda
+4e52aaa Update protocol.md
+9a37a1f Initial commit
+5bbd5f3 docs: clarify recovery time in step 4
+e979ee9 feat: add DNA ladder to reagent list
+d87fc6b fix: restore teammate note removed by revert
+738229f fix: clean leftover conflict markers and restore team note
+00343fa feat: re-add team note from eda
+9e6c139 Revert "feat: add team note from eda"
+ab904e3 Merge branch 'main' of https://github.com/SupBiotech-MSc2/CETIN-BIBI-BIAOU
+ffa9fdd docs: add note on reagent list
+4a63255 feat: add team note from eda
+4e52aaa Update protocol.md
+9a37a1f Initial commit
+Current branch feature/eda-idea is up to date.
+* 5bbd5f3 docs: clarify recovery time in step 4
+* e979ee9 feat: add DNA ladder to reagent list
+* d87fc6b fix: restore teammate note removed by revert
+* 738229f fix: clean leftover conflict markers and restore team note
+* 00343fa feat: re-add team note from eda
+* 9e6c139 Revert "feat: add team note from eda"
+*   ab904e3 Merge branch 'main' of https://github.com/SupBiotech-MSc2/CETIN-BIBI-BIAOU
+|\  
+| * 4a63255 feat: add team note from eda
+* | ffa9fdd docs: add note on reagent list
+|/  
+* 4e52aaa Update protocol.md
+* 9a37a1f Initial commit
+[feature/status-review c2968e8] chore: mark status as under review
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+Auto-merging protocol.md
+CONFLICT (content): Merge conflict in protocol.md
+Automatic merge failed; fix conflicts and then commit the result.
+Auto-merging protocol.md
+Merge made by the 'ort' strategy.
+ protocol.md | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
