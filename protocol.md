@@ -1,3 +1,4 @@
+
 # CRISPR Knockout Screening Protocol
 
 **Status:** Draft v1
@@ -12,7 +13,7 @@ screening.
 - Synthetic sgRNA (target-specific)
 - Electroporation buffer
 - HEK293 cells, passage < 20
-
+- DNA ladder (1 kb)
 ## Steps
 1. Design and order sgRNA targeting exon 2 of the gene of interest.
 2. Complex Cas9 protein with sgRNA at a 1:1.2 molar ratio, incubate 10 min RT.
