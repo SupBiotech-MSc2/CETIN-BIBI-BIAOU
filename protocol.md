@@ -23,3 +23,4 @@ screening.
 ## Team Notes
 <!-- add your own line below, one per teammate -->
 Aurélie : This is my line
+Eda: préciser la concentration de Cas9 dans la liste des réactifs.
