@@ -23,3 +23,8 @@ screening.
 ## Team Notes
 <!-- add your own line below, one per teammate -->
 Aurélie : This is my line
+git status | tee -a worklog-eda.txt
+git add protocol.md
+git commit -m "feat: add team note from eda" | tee -a worklog-eda.txt
+git push origin main | tee -a worklog-eda.txt
+
