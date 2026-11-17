@@ -28,3 +28,4 @@ Aurelie : this is my line
 Eda: préciser la concentration de Cas9 dans la 
 liste des réactifs.
 Eda: j'allongerais la récupération de l'étape 4 à 72h avant le séquençage.
+Donia : Si j'ai bien compris ici on ajoute nos petites notes communes pour se tenir au courant, et dans notre Worklog, on fais notre "travail", on code ce qu'on fait ?! 
