@@ -31,3 +31,4 @@ Eda: préciser la concentration de Cas9 dans la
 liste des réactifs.
 Eda: j'allongerais la récupération de l'étape 4 à 72h avant le séquençage.
 Donia : J'ai ajouté l'eau purifié et les nucléases qui me parait peut être utile dites-moi
+Donia: a relire avant de valider
