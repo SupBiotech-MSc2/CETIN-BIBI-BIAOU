@@ -15,7 +15,7 @@ screening.
 - HEK293 cells, passage < 20
 - DNA ladder (1 kb)
 - Nucleases
--Pure water
+- Pure water
 ## Steps
 1. Design and order sgRNA targeting exon 2 of the gene of interest.
 2. Complex Cas9 protein with sgRNA at a 1:1.2 molar ratio, incubate 10 min RT.
@@ -30,4 +30,4 @@ Aurelie : this is my line
 Eda: préciser la concentration de Cas9 dans la 
 liste des réactifs.
 Eda: j'allongerais la récupération de l'étape 4 à 72h avant le séquençage.
-Donia : 
+Donia : J'ai ajouté l'eau purifié et les nucléases qui me parait peut être utile dites-moi
